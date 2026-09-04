@@ -1,0 +1,32 @@
+.body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    font-family: 'Roboto', monospace;
+    color: white;
+    background-color: darkgreen;
+    display: flex;
+    justify-content: space-around;
+    padding: 16px;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
