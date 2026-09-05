@@ -17,6 +17,7 @@ body {
 
 .logo {
     font-size: 24px;
+    font-weight: 1000;
 }
 
 ul {
@@ -42,6 +43,51 @@ a {
 }
 
 .body {
-    
+    display: flex;
+    flex: 1;
 }
 
+.hero {
+    display: flex;
+    padding: 100px 245px;
+    flex: 1;
+    gap: 50px;
+    justify-content: center;
+    background-color: darkgreen;
+}
+
+.left-hero {
+    max-width: 450px;
+}
+
+.main {
+    font-size: 48px;
+    color: white;
+    font-weight: 1000;
+}
+
+.secondary {
+    font-size: 18px;
+    color: lightgrey;
+    margin-bottom: 15px;
+}
+
+.image {
+    width: 500px;
+    height: 200px;
+    background-color: grey;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    background-color: rgb(113, 177, 113);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 30px;
+    font-size: 18px;
+    font-weight: 500;
+}
