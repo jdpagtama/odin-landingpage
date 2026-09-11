@@ -48,7 +48,7 @@ a {
     flex-flow: column;
 }
 
-.hero, .info {
+.hero, .info, .quote {
     display: flex;
     padding: 100px 245px;
     flex: 1;
@@ -129,4 +129,30 @@ button {
 .card {
     width: 150px;
     height: 150px;
+}
+
+.quote {
+    flex-flow: column;
+    background-color: #E5E7EB;
+}
+
+.words {
+    display: flex;
+    font-size: 36px;
+    color: darkgreen;
+    font-weight: light;
+    font-style: italic;
+}
+
+.author {
+    text-align: right;
+    color: darkgreen;
+    font-weight: 1000;
+}
+
+.insidequote {
+    display: flex;
+    flex-flow: column;
+    align-self: center;
+    width: 800px;
 }
