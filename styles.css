@@ -140,7 +140,7 @@ button {
     display: flex;
     font-size: 36px;
     color: darkgreen;
-    font-weight: light;
+    font-weight: 1;
     font-style: italic;
 }
 
@@ -148,6 +148,7 @@ button {
     text-align: right;
     color: darkgreen;
     font-weight: 1000;
+    font-size: 24px;
 }
 
 .insidequote {
@@ -155,4 +156,34 @@ button {
     flex-flow: column;
     align-self: center;
     width: 800px;
+}
+
+.actioncontainer {
+    display: flex;
+    padding: 50px 100px;
+    flex: 1;
+    gap: 300px;
+    justify-content: space-around;
+    background-color: green;
+    align-self: center;
+    border-radius: 8px;
+}
+
+.action, .subaction {
+    color: white;
+}
+
+.action {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.subaction {
+    font-weight: lighter;
+}
+
+.actionbutton {
+    border-color: white;
+    border: solid;
+    border-width: 2px;
 }
